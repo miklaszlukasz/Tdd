@@ -28,5 +28,10 @@ hs_err_pid*
 # IntelliJ project files
 .idea
 *.iml
+.gradle
 out
 gen
+/.idea/
+/.gradle/
+src/main/resources/
+src/test/resources/
