@@ -9,9 +9,9 @@ public class DefaultCalculator implements Calculator {
     }
 
     @Override
-    public double divide(double number, double divider) {
-        if (divider == 0)
-            throw new IllegalArgumentException("Argument divider is 0");
-        return number/divider;
+    public double divide(double dividend, double divisor) {
+        if (divisor == 0)
+            throw new IllegalArgumentException("Argument divisor is 0");
+        return dividend/divisor;
     }
 }
